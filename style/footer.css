@@ -1,0 +1,61 @@
+
+
+.footer_items {
+    width: 100%;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+
+    row-gap: 25px;
+}
+.blizzard_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 10px;
+}
+.blizzard_items h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryNav);
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.blizzard_items span {
+    height: 13.5px;
+    border-right: 1px solid #BAC0C2;
+}
+.blizzard_copyright {
+    text-align: center;
+}
+.blizzard_copyright p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--greyButton);
+    font-weight: 400;
+    font-size: 12px;
+}
+.blizzard_copyright p span {
+    color: var(--primaryNav);
+}
+.blizzard_legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 10px;
+}
+.blizzard_legal h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryNav);
+    font-weight: 400;
+    font-size: 12px;
+}
+.blizzard_legal span {
+    height: 13.5px;
+    border-right: 1px solid #BAC0C2;
+}

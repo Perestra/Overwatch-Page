@@ -1,0 +1,194 @@
+
+.heroes {
+    position: relative;
+    top: -4px;
+    background-image: url(https://static.playoverwatch.com/img/scene/candy-5d74c9b93f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.heroes_page {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 120px;
+}
+.page_title {
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.page_title h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: 700;
+    font-size: 42px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.page_title p {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: 400;
+    font-size: 16px;
+}
+.heroes_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 18px;
+    margin-top: 60px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 8px;
+    border-radius: 4px;
+    padding: 13px 52px;
+}
+.flex img {
+    width: 17.5px;
+    height: 17.5px;
+}
+.flex h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.heroe_damage, .heroe_support {
+    background-color: var(--greyButton);
+}
+.heroe_tank {
+    background-color: var(--blueButton);
+}
+
+
+
+.heroe_name_description_selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 440px;
+    column-gap: 50px;
+    margin-top: 80px;
+
+    background-image: linear-gradient(90deg,rgba(64,82,117,0) 0,rgba(64,82,117,.8) 25%,rgba(64,82,117,.8) 75%,rgba(64,82,117,0));
+    background-position: 50%;
+    background-size: 100% 220px; 
+    background-repeat: no-repeat;
+}
+.heroe_selected img {
+    width: 350px;
+}
+.heroe_name_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroe_name_description h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 800;
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.heroe_name_description p {
+    width: 400px;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+.icon_heroes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    column-gap: 5px;
+    row-gap: 12px;
+    margin-bottom: 80px;
+}
+.icon_hero_name {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icon_hero_name img {
+    width: 80px;
+    height: 95px;
+
+    object-fit: cover;
+    object-position: center 5%;
+
+    background-color: rgba(51,51,51,.6);
+    border: 5px solid var(--White);
+    border-radius: 12px;
+
+    transition: all ease-in-out 0.15s;
+}
+.icon_hero_name span {
+    text-align: center;
+    z-index: 1;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryNav);
+    font-weight: 500;
+    font-size: 12px;
+
+    border-radius: 8px;
+    transition: all ease-in-out 0.15s;
+}
+.icon_hero_name:hover img {
+    transform: scale(1.3);
+    background-color: #ffb033;
+}
+.icon_hero_name:hover span {
+    background-color: #fff;
+}
+
+
+.buy_the_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://static.playoverwatch.com/img/pages/buy/buy-bar-bg-3c956a1db2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-top: 4px solid hsla(0,0%,44.7%,.7);
+}
+.buy_the_game button {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+
+    margin: 35px 0;
+    padding: 16px 58px;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    background-color: var(--orangeButton);
+}

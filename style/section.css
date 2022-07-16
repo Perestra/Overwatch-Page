@@ -6,8 +6,11 @@
     margin: auto;
 
     display: flex;
+    justify-content: space-between;
 }
-.hero_infos {
+
+
+.heroe_infos {
     display: flex;
     justify-content: center;
     
@@ -15,9 +18,9 @@
     top: 0;
     right: 0;
     
-    column-gap: 180px;
+    column-gap: 220px;
 }
-.hero_desc {
+.heroe_desc {
     margin-top: 93px;
 }
 .name_desc {
@@ -44,7 +47,7 @@
 
     margin-bottom: 16px;
 }
-.hero_desc_bar {
+.heroe_desc_bar {
     display: flex;
     justify-content: -start;
     align-items: flex-start;
@@ -54,21 +57,18 @@
     column-gap: 8px;
     margin-bottom: 32px;
 }
-.hero_desc_bar span {
+.heroe_desc_bar span {
     height: 125px;
     border-right: 3px solid var(--blueTextName);
 }
-.hero_desc_bar p {
+.heroe_desc_bar p {
     font-family: 'Poppins', sans-serif;
     color: var(--boxLogoNav);
     font-weight: 400;
     font-size: 14px;
 }
 .learn_more {
-    background-color: var(--blueButton);
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
-    
+    border-radius: 4px;
     
     font-family: 'Poppins', sans-serif;
     color: var(--White);
@@ -80,7 +80,46 @@
     border: none;
     outline: none;
 }
+.learn_more.blue {
+    background-color: var(--blueButton);
+}
 #symmetra {
+    position: absolute;
+    top: 60px;
+    right: 19px;
+}
+
+
+.overwatch_two {
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    top: 0;
+    right: 0;
+
+    column-gap: 40px;
+}
+.overwatch_desc {
+    margin-left: 57px;
+    margin-top: 93px;
+}
+.overwatch_desc h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--boxLogoNav);
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#overwatch2_logo {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.learn_more.orange {
+    background-color: var(--orangeButton);
+}
+#tracer {
     position: absolute;
     top: 60px;
     right: 19px;
