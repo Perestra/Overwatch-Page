@@ -1,0 +1,89 @@
+
+
+.main {
+    background-image: radial-gradient(63.65% 201.15% at -1.28% 64.2%, rgba(11, 32, 64, 0.85) 0%, rgba(35, 50, 64, 0) 100%), url(/assets/bg-main.png);
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 643px;
+}
+.main_items {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+.logo_text {
+    margin-top: 113px;
+}
+.button_buy {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+
+    margin-top: 51px;
+    padding: 16px 58px;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    background-color: var(--orangeButton);
+}
+.icons_trailer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 150px;
+    column-gap: 40px;
+}
+.label_icons div img{
+   cursor: pointer;
+}
+.thumbnail_trailer {
+    background-image: linear-gradient(0deg, #000000c2 5.91%, rgba(14, 14, 17, 0) 65.32%), url(/assets/thumbnail-trailer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 4px;
+
+    width: 351px;
+    height: 186px;
+
+    position: relative;
+    cursor: pointer;
+}
+.thumbnail_trailer button {
+    outline: none;
+    border: none;
+    background: linear-gradient(136.72deg, rgba(7, 7, 10, 0.7) 19.22%, rgba(15, 16, 22, 0.5) 76.59%);
+    backdrop-filter: blur(1px);
+    cursor: pointer;
+    border-radius: 100%;
+
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+    width: 60px;
+    height: 60px;
+
+    transition: all ease-in-out 0.1s;
+}
+.thumbnail_trailer i {
+    color: var(--orangeButton);
+    font-size: 25px;  
+
+    transition: all ease-in-out 0.1s;
+}
+

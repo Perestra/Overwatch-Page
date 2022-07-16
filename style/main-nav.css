@@ -1,0 +1,114 @@
+
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 24px;
+}
+.nav_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--boxLogoNav);
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+    padding: 14px 16px;
+}
+.nav_logo img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.nav_menu {
+    flex: 1;
+    background-color: var(--secondaryNav);
+}
+.nav_menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    column-gap: 8px;
+}
+.nav_menu li {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 14px;
+    column-gap: 8px;
+}
+.nav_menu ul span {
+    height: 13.5px;
+    border-right: 1px solid #BAC0C2;
+}
+.nav_menu li h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--boxLogoNav);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav_menu li i {
+    color: #838B8F;
+}
+.nav_menu li:first-child h1 {
+    padding-left: 20px;
+}
+
+
+.nav_user_buy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_user {
+    background-color: var(--secondaryNav);
+}
+.nav_user ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+    column-gap: 8px;
+}
+.nav_user li {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 14px;
+    column-gap: 8px;
+}
+.nav_user ul span {
+    height: 13.5px;
+    border-right: 1px solid #BAC0C2;
+}
+.nav_user li h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--boxLogoNav);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav_user li:last-child h1 {
+    padding-right: 20px;
+}
+.nav_buy {
+    background-color: var(--orangeButton);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    padding: 15px 40px;
+}
+.nav_buy h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
