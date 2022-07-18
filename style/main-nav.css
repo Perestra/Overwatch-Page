@@ -1,6 +1,7 @@
 
 
 .nav_items {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,15 +37,17 @@
     column-gap: 8px;
 }
 .nav_menu li {
+    border-bottom: 2px solid transparent;
     display: flex;
     align-items: center;
 
     padding: 15px 14px;
     column-gap: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
 }
-.nav_menu ul span {
-    height: 13.5px;
-    border-right: 1px solid #BAC0C2;
+.nav_menu li:hover {
+    border-bottom: 2px solid var(--orangeButton);
 }
 .nav_menu li h1 {
     font-family: 'Poppins', sans-serif;
@@ -52,12 +55,21 @@
     font-weight: 600;
     font-size: 13px;
     text-transform: uppercase;
+
+    transition: all ease-in-out 0.2s;
+}
+.nav_menu li:first-child h1 {
+    padding-left: 20px;
+}
+.nav_menu li:hover h1, .nav_menu li:hover i {
+    color: var(--orangeButton);
 }
 .nav_menu li i {
     color: #838B8F;
 }
-.nav_menu li:first-child h1 {
-    padding-left: 20px;
+.nav_menu ul span {
+    height: 35px;
+    border-right: 2px solid #bac0c22c;
 }
 
 
@@ -78,15 +90,22 @@
     column-gap: 8px;
 }
 .nav_user li {
+    border-bottom: 2px solid transparent;
     display: flex;
     align-items: center;
 
     padding: 15px 14px;
     column-gap: 8px;
+    cursor: pointer;
+
+    transition: all ease-in-out 0.2s;
+}
+.nav_user li:hover {
+    border-bottom: 2px solid var(--orangeButton);
 }
 .nav_user ul span {
-    height: 13.5px;
-    border-right: 1px solid #BAC0C2;
+    height: 35px;
+    border-right: 2px solid #bac0c22c;
 }
 .nav_user li h1 {
     font-family: 'Poppins', sans-serif;
@@ -94,16 +113,22 @@
     font-weight: 600;
     font-size: 13px;
     text-transform: uppercase;
+
+    transition: all ease-in-out 0.2s;
 }
 .nav_user li:last-child h1 {
     padding-right: 20px;
+}
+.nav_user li:hover h1{
+    color: var(--orangeButton);
 }
 .nav_buy {
     background-color: var(--orangeButton);
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     
-    padding: 15px 40px;
+    padding: 16px 40px;
+    cursor: pointer;
 }
 .nav_buy h1 {
     font-family: 'Poppins', sans-serif;

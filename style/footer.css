@@ -26,6 +26,10 @@
     font-size: 17px;
     text-transform: uppercase;
 }
+.blizzard_items h1:hover, .blizzard_copyright p span, .blizzard_legal h1 {
+    cursor: pointer;
+    color: #000;
+}
 .blizzard_items span {
     height: 13.5px;
     border-right: 1px solid #BAC0C2;

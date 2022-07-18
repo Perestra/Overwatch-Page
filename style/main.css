@@ -21,6 +21,7 @@
     border: none;
     border-radius: 4px;
     outline: none;
+    cursor: pointer;
 
     margin-top: 51px;
     padding: 16px 58px;
@@ -49,41 +50,10 @@
 .label_icons div img{
    cursor: pointer;
 }
-.thumbnail_trailer {
-    background-image: linear-gradient(0deg, #000000c2 5.91%, rgba(14, 14, 17, 0) 65.32%), url(/assets/thumbnail-trailer.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.video_trailer {
+    width: 360px;
+    height: auto;
     border-radius: 4px;
-
-    width: 351px;
-    height: 186px;
-
-    position: relative;
-    cursor: pointer;
 }
-.thumbnail_trailer button {
-    outline: none;
-    border: none;
-    background: linear-gradient(136.72deg, rgba(7, 7, 10, 0.7) 19.22%, rgba(15, 16, 22, 0.5) 76.59%);
-    backdrop-filter: blur(1px);
-    cursor: pointer;
-    border-radius: 100%;
 
-    position: absolute;
-    inset: 0;
-    margin: auto;
-
-    width: 60px;
-    height: 60px;
-
-    transition: all ease-in-out 0.1s;
-}
-.thumbnail_trailer i {
-    color: var(--orangeButton);
-    font-size: 25px;  
-
-    transition: all ease-in-out 0.1s;
-}
 

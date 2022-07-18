@@ -79,6 +79,7 @@
 
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .learn_more.blue {
     background-color: var(--blueButton);
