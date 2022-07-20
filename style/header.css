@@ -21,6 +21,9 @@
     width: 66px;
     height: 30px;
 }
+.fa-xmark {
+    display: none;
+}
 .header_menu ul {
     display: flex;
     column-gap: 50px;
@@ -29,6 +32,7 @@
     display: flex;
     align-items: center;
     list-style: none;
+    cursor: pointer;
     
     column-gap: 12px;
 }
@@ -41,8 +45,7 @@
     transition: all ease-in-out 0.2s;
 }
 .header_menu li:hover h1 {
-    color: var(--White);
-    cursor: pointer;
+    color: var(--White);  
 }
 .fa-angle-down {
     color: hsla(0,0%,100%,.7);
@@ -69,12 +72,16 @@
     padding: 8px 16px;
     cursor: pointer;
 
-    transition: all ease-in-out 0.15s;
+    transition: all ease-in-out 0.2s;
 }
 .create_user {
     color: var(--White);
-    background-color: var(--primaryNav);
+    background-color: transparent;
     border: 1px solid var(--White);
+}
+.login_user {
+    border: none;
+    outline: none;
 }
 .create_user:hover {
     color: var(--primaryNav);

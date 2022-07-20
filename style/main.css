@@ -10,10 +10,18 @@
     height: 643px;
     overflow: hidden;
 }
+.nav-mobile {
+    display: none;
+}
 .main_items {
     width: 100%;
     max-width: 90%;
     margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .logo_text {
     margin-top: 113px;
@@ -36,6 +44,7 @@
     background-color: var(--orangeButton);
 }
 .icons_trailer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

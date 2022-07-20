@@ -5,6 +5,7 @@
 @import url(/style/section.css);
 @import url(/style/heroe.css);
 @import url(/style/footer.css);
+@import url(/style/responsive.css);
 
 *{
     margin: 0;

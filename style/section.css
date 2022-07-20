@@ -27,7 +27,7 @@
     width: 216px;
     height: 115px;
 
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 .name_desc h2 {
     font-family: 'Poppins', sans-serif;
@@ -44,13 +44,12 @@
     font-size: 32px;
     font-style: italic;
     text-transform: uppercase;
-
-    margin-bottom: 16px;
 }
 .heroe_desc_bar {
     display: flex;
-    justify-content: -start;
+    justify-content: flex-start;
     align-items: flex-start;
+    text-align: justify;
 
     width: 265px;
     height: 125px;
