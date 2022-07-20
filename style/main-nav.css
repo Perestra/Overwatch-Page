@@ -152,23 +152,23 @@
 
 
 .nav_buy {
-    background-color: var(--orangeButton);
-    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    
-    padding: 0 20px;
     height: 100%;
-
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
 }
-.nav_buy h1 {
+.nav_buy button {
     font-family: 'Poppins', sans-serif;
     color: var(--White);
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
+
+    background-color: var(--orangeButton);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    padding: 0 20px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
