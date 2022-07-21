@@ -17,7 +17,6 @@
 }
 body{
     background-color: var(--White);
-    overflow-x: hidden;
 }
 :root{
     --White: #fff;
