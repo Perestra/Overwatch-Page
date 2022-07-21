@@ -10,12 +10,12 @@
     <title>Overwatch</title>
 </head>
 <body>
-    <global>
+    <div class="global">
         <header class="header">
             <div class="header_items">
                 <div class="header_logo">
                     <img src="/assets/blizzard-logo.png" alt="Logo da Blizzard">
-                    <i id="right-mobile" class="fa-solid fa-xmark"></i>
+                    <i id="right-mobile" class="fa-solid fa-xmark" onclick="removeMenuHeader()"></i>
                 </div>
                 <div class="header_menu">
                     <ul>
@@ -47,19 +47,19 @@
         <main class="main">
             <div class="nav-mobile">
                 <div class="content_mobile">
-                    <div class="menu_mobile_nav">
+                    <div class="menu_mobile_nav" onclick="addMenuMainNav()">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                    <img src="/assets/Overwatch-logo-black.png" alt="Logo do Overwatch">
-                    <i class="fa-solid fa-user-large"></i>
+                    <img id="overwatch_logo_mobile" src="/assets/Overwatch-logo-black.png" alt="Logo do Overwatch">
+                    <img src="/assets/user.png" class="fa-solid fa-user-large" onclick="addMenuHeader()" alt="Icone de usuário">
                 </div>
             </div>
             <div class="full_nav">
                 <div class="logos_mobile">
                     <img id="logo-mobile" src="/assets/Overwatch-name-logo.png" alt="Logo do Overwatch em texto">
-                    <i id="left-mobile" class="fa-solid fa-xmark"></i>
+                    <i id="left-mobile" class="fa-solid fa-xmark" onclick="RemoveMenuMainNav()"></i>
                 </div>
                 <nav class="nav_items">
                     <div class="nav_logo"><img src="/assets/Overwatch-logo.png" alt="Logo do Overwatch"></div>
@@ -137,35 +137,13 @@
         </main>
         <section class="section">
             <div class="section_items">
-                <div class="heroe_infos">
-                    <div class="heroe_desc">
-                        <div class="name_desc">
-                            <h2>Symmetra</h2>
-                            <h1>Um mundo melhor</h1>
-                        </div>
-                        <div class="heroe_desc_bar">
-                            <span></span>
-                            <p>Symmetra literalmente dobra a realidade. 
-                            Ao manipular construtos de luz sólida, ela altera o mundo conforme a sua vontade,
-                            na esperança de criar uma sociedade perfeita.</p>
-                        </div>
-                        <button class="learn_more blue">Saiba mais</button>
-                    </div>
-                    <div class="heroe_image">
-                        <img id="symmetra" src="/assets/symmetra-page.png" alt="Foto da Symmetra">
-                        <img id="bg_symmetra" src="/assets/bg-symmetra.png" alt="Background azul">
-                    </div>
-                </div>
-                <div class="overwatch_two">
-                    <div class="overwatch_desc">
-                        <h2>Em desenvolvimento</h2>
-                        <div id="overwatch2_logo"><img src="/assets/Overwatch2-logo.png" alt="Logo do Overwatch 2"></div>
-                        <button class="learn_more orange">Saiba mais</button>
-                    </div>
-                    <div class="heroe_image">
-                        <img id="tracer" src="/assets/tracer-page.png" alt="Foto da Tracer">
-                        <img src="/assets/bg-tracer.png" alt="Background laranja">
-                    </div>
+                <div class="world_cup"><img src="https://static.playoverwatch.com/img/logos/worldcup/worldcup_logo-51f51b1b6f.png" alt="Logo da Copa do mundo de Overwatch"></div>
+                <div class="description_world_cup">
+                    <h1>Copa mundial de Overwatch</h1>
+                    <p>A Copa Mundial de Overwatch recebe equipes nacionais de todo o mundo, mas é a comunidade de Overwatch quem realmente torna a competição de primeira.
+                    Os espectadores votarão por seus representantes nacionais, que irão selecionar a equipe mais forte de sua nação. 
+                    Depois, as equipes escolhidas avançarão nas semifinais do competitivo antes de se enfrentarem na BlizzCon!</p>
+                    <button>Visite o site do mundial de ow</button>
                 </div>
             </div>
         </section>
@@ -247,7 +225,7 @@
                 </div>
             </div>
         </footer>
-    </global>
+    </div>
 
     <script src="/script/script.js"></script>
 
