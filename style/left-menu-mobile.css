@@ -61,6 +61,7 @@
         height: 100vh;
         
         z-index: 1;
+        transition: all ease-in-out 0.29s;
     }
     .logos_mobile {
         display: block;

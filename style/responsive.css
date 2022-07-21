@@ -1,6 +1,13 @@
 
 
 @media (max-width: 1340px) {
+    body {
+        overflow-x: hidden;
+    }
+    body.lock-scroll {
+        overflow: hidden;
+    }
+    
     .full_nav {
         margin-top: 0;
     }
@@ -24,6 +31,7 @@
     .trailer {
         display: none;
     }
+    
 }
 
 
