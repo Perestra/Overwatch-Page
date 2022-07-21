@@ -6,6 +6,9 @@
 @import url(/style/heroe.css);
 @import url(/style/footer.css);
 @import url(/style/responsive.css);
+@import url(/style/left-menu-mobile.css);
+@import url(/style/right-menu-mobile.css);
+
 
 *{
     margin: 0;
@@ -14,6 +17,7 @@
 }
 body{
     background-color: var(--White);
+    overflow-x: hidden;
 }
 :root{
     --White: #fff;
@@ -26,3 +30,4 @@ body{
     --secondaryNav: #F2F1ED;
     --boxLogoNav: #394043;
 }
+

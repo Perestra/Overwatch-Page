@@ -1,0 +1,100 @@
+
+
+@media (max-width: 1340px) {
+    .header.active {
+        display: block;
+        right: 0;
+    
+        transition: all ease-in-out 0.29s;
+    }
+    .header {
+        position: absolute;
+        top: 0px;
+        right: -500px;
+        background-color: #2f3543;
+
+        width: 320px;
+        height: 100vh;
+        
+        z-index: 2;
+    }
+    .header_items {
+        display: block;
+        justify-content: center;
+        max-width: 100%;
+        height: 100%;
+    }
+    .header_logo {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 20px;
+    }
+    .header_logo img {
+        width: 88px;
+        height: 40px;
+    }
+    #right-mobile {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+
+        font-size: 24px;
+        color: #00aeff;
+        transition: color .2s;
+        cursor: pointer;
+    }
+    #right-mobile:hover {
+        color: #00c6ff;
+    }
+    .header_menu {
+        margin: 20px auto;
+    }
+    .header_menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .header_menu li {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 12px;
+    }
+    .header_menu li:hover {
+        background-color: #363e4d81;
+    }
+    .header_menu li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);   
+    }
+    .header_menu li h1 {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .header_user {
+        align-items: center;
+        column-gap: 20px;
+        padding: 12px;
+    }
+    .header_user button{
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .create_user {
+        background-color: var(--orangeButton);
+    }
+    .create_user:hover {
+        color: var(--White);
+        background-color: #e6702d;
+    }
+    .login_user {
+        background-color: #006fb2;
+        color: var(--White);
+    }
+    .login_user:hover {
+        background-color: #007bc6;
+    }
+}

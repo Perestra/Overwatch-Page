@@ -1,30 +1,28 @@
 
 .heroes {
-    position: relative;
-    top: -4px;
     background-image: url(https://static.playoverwatch.com/img/scene/candy-5d74c9b93f.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
 .heroes_page {
     width: 100%;
     max-width: 90%;
+
     margin: auto;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 .page_title {
     width: 100%;
-    max-width: 70%;
+    max-width: 800px;
     margin: auto;
     text-align: center;
 }
 .page_title h1 {
     font-family: 'Poppins', sans-serif;
     color: #333;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 42px;
     font-style: italic;
     text-transform: uppercase;
@@ -34,6 +32,8 @@
     color: #333;
     font-weight: 400;
     font-size: 16px;
+
+    text-align: justify;
 }
 .heroes_category {
     display: flex;
@@ -123,7 +123,7 @@
 
     flex-wrap: wrap;
 
-    column-gap: 5px;
+    column-gap: 10px;
     row-gap: 12px;
     margin-bottom: 80px;
 }

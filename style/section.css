@@ -1,126 +1,64 @@
 
 
-.section_items {
-    width: 100%;
-    max-width: 90%;
-    margin: auto;
-
-    display: flex;
-    justify-content: space-between;
+.section {
+    background-color: var(--secondaryNav);
 }
+.section_items {
+    padding: 72px 10px;
 
-
-.heroe_infos {
+    width: 100%;
+    
     display: flex;
     justify-content: center;
-    
-    position: relative;
-    top: 0;
-    right: 0;
-    
-    column-gap: 220px;
-}
-.heroe_desc {
-    margin-top: 93px;
-}
-.name_desc {
-    width: 216px;
-    height: 115px;
+    align-items: center;
 
-    margin-bottom: 32px;
+    margin: auto;
+    column-gap: 24px;
 }
-.name_desc h2 {
-    font-family: 'Poppins', sans-serif;
-    color: var(--blueTextName);
-    font-weight: 600;
-    font-size: 18px;
-    font-style: italic;
-    text-transform: uppercase;
+.world_cup img{
+   width: 100%;
 }
-.name_desc h1 {
-    font-family: 'Poppins', sans-serif;
-    color: var(--blueTextInfo);
-    font-weight: 600;
-    font-size: 32px;
-    font-style: italic;
-    text-transform: uppercase;
-}
-.heroe_desc_bar {
+.description_world_cup {
+    width: 520px;
+
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    text-align: justify;
 
-    width: 265px;
-    height: 125px;
-    column-gap: 8px;
-    margin-bottom: 32px;
+    row-gap: 20px;
+    padding: 0 10px;
 }
-.heroe_desc_bar span {
-    height: 125px;
-    border-right: 3px solid var(--blueTextName);
-}
-.heroe_desc_bar p {
+.description_world_cup h1 {
     font-family: 'Poppins', sans-serif;
-    color: var(--boxLogoNav);
+    color: #FF9C00;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.description_world_cup p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryNav);
     font-weight: 400;
     font-size: 14px;
+
+    text-align: justify;
 }
-.learn_more {
-    border-radius: 4px;
-    
+.description_world_cup button {
     font-family: 'Poppins', sans-serif;
     color: var(--White);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
-    padding: 13px 52px;
 
+    padding: 6px 16px;
+    background-color: #FF9C00;
     border: none;
     outline: none;
+    border-radius: 4px;
     cursor: pointer;
+    transition: all ease-in-out 0.2s;
 }
-.learn_more.blue {
-    background-color: var(--blueButton);
-}
-#symmetra {
-    position: absolute;
-    top: 60px;
-    right: 19px;
-}
-
-
-.overwatch_two {
-    display: flex;
-    justify-content: center;
-    
-    position: relative;
-    top: 0;
-    right: 0;
-
-    column-gap: 40px;
-}
-.overwatch_desc {
-    margin-left: 57px;
-    margin-top: 93px;
-}
-.overwatch_desc h2 {
-    font-family: 'Poppins', sans-serif;
-    color: var(--boxLogoNav);
-    font-weight: 700;
-    font-size: 18px;
-    font-style: italic;
-    text-transform: uppercase;
-}
-#overwatch2_logo {
-    margin-top: 16px;
-    margin-bottom: 32px;
-}
-.learn_more.orange {
-    background-color: var(--orangeButton);
-}
-#tracer {
-    position: absolute;
-    top: 60px;
-    right: 19px;
+.description_world_cup button:hover {
+    background-color: #FFB033;
 }
