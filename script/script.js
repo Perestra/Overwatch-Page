@@ -6,40 +6,26 @@ const body = document.querySelector('body')
 // Active mode for Left menu mobile
 function addMenuMainNav() {
     mainNav.classList.add('active'); //Add an 'Active' class to open the menu
-    validateActive()
+    window.scrollTo({top:0})
+    body.classList.add('lock-scroll');
 }
 function RemoveMenuMainNav() {
     mainNav.classList.remove('active'); //Remove an 'Active' class to open the menu
-    validateActive()
+    body.classList.remove('lock-scroll');
 }
 
 
 // Active mode for right menu mobile
 function addMenuHeader() {
     header.classList.add('active'); //Add an 'Active' class to open the menu
-    validateActive()
+    window.scrollTo({top:0})
+    body.classList.add('lock-scroll');
 }
 function removeMenuHeader() {
     header.classList.remove('active'); //Remove an 'Active' class to open the menu
-    validateActive()
-}
-
-
-function validateActive() {
-
-    const headerClasse = header.classList.contains('active');
-    const mainNavClasse = mainNav.classList.contains('active');
+    body.classList.remove('lock-scroll');
+}  
     
-    function bodyActive(){
-        if(headerClasse == true || mainNavClasse == true) {
-            body.classList.add('lock-scroll');
-        } else if(headerClasse == false && mainNavClasse == false) {
-            body.classList.remove('lock-scroll');
-        } else body.classList.remove('lock-scroll');
-    }   
-
-    bodyActive()
-}
 
 
 
