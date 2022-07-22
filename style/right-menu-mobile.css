@@ -8,9 +8,9 @@
         transition: all ease-in-out 0.29s;
     }
     .header {
-        position: absolute;
-        top: 0px;
-        right: -320px;
+        position: fixed;
+        top: 0;
+        right: -500px;
         background-color: #2f3543;
 
         width: 320px;

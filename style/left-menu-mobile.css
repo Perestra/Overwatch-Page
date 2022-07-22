@@ -50,6 +50,7 @@
     .full_nav.active {
         left: 0;
         transition: all ease-in-out 0.29s;
+        
     }
     .full_nav {
         position: absolute;

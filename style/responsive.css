@@ -1,13 +1,6 @@
 
 
 @media (max-width: 1340px) {
-    body {
-        overflow-x: hidden;
-    }
-    body.lock-scroll {
-        overflow: hidden;
-    }
-    
     .full_nav {
         margin-top: 0;
     }
@@ -99,7 +92,7 @@
     }
     
     .flex {
-        padding: 10px 23px;
+        padding: 10px 27px;
     }
     .flex h1 {
         font-weight: 600;
