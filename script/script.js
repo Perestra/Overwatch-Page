@@ -3,7 +3,7 @@ const header = document.querySelector('.header')
 const body = document.querySelector('body')
 
 
-// Active mode for Left menu mobile
+// Active mode for left menu mobile
 function addMenuMainNav() {
     mainNav.classList.add('active'); //Add an 'Active' class to open the menu
     window.scrollTo({top:0})
