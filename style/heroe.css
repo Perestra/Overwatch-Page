@@ -70,6 +70,10 @@
 .heroe_damage, .heroe_support, .heroe_tank {
     background-color: var(--greyButton);
     cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.heroe_damage:hover, .heroe_support:hover, .heroe_tank:hover  {
+    background-color: var(--blueButton);
 }
 .heroe_damage.active, .heroe_support.active, .heroe_tank.active  {
     background-color: var(--blueButton);

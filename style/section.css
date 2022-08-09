@@ -45,12 +45,6 @@
     text-align: justify;
 }
 .description_world_cup button {
-    font-family: 'Poppins', sans-serif;
-    color: var(--White);
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-
     padding: 6px 16px;
     background-color: #FF9C00;
     border: none;
@@ -61,4 +55,13 @@
 }
 .description_world_cup button:hover {
     background-color: #FFB033;
+}
+.description_world_cup button a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    text-decoration: none;
 }
