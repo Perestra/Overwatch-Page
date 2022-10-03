@@ -282,7 +282,7 @@ const createIcon = () =>  Heroes.forEach(setHeroIcon)
 
 const containerNameDescription = document.querySelector('.heroe_name_description_selected')
 
-function createHeroDescritption(heroe) {
+function createHeroDescription(heroe) {
     
     const imgHeroSelected = document.createElement('div')
     imgHeroSelected.classList.add('heroe_selected')
@@ -308,7 +308,7 @@ function createHeroDescritption(heroe) {
 
 
 createIcon()
-createHeroDescritption(Heroes[8])
+createHeroDescription(Heroes[8])
 
 
 
