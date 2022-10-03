@@ -267,7 +267,7 @@ function iconButton(heroe){
     var span = document.createElement('span')
     span.innerHTML = heroe.name
 
-    btn.onmouseover = createHeroDescritption.bind(null, heroe)
+    btn.onmouseover = createHeroDescription.bind(null, heroe)
 
     btn.appendChild(img)
     btn.appendChild(span)
